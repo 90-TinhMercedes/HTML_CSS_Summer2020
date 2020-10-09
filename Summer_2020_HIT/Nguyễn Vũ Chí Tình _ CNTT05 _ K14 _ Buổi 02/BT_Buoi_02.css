@@ -1,0 +1,45 @@
+#nenLink {
+    background-color: #2e86de;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.theme {
+    border-radius: 50%;
+}
+
+.kichthuocto {
+    width: 100%;
+    text-align: center;
+}
+
+.kichthuocnho {
+    margin: 0 auto;
+    width: 60%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.font_phu {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.fontEnd {
+    font-size: 37px;
+    padding: 20px;
+    background-image: linear-gradient(#2011fc, #dd78ef );
+    color: white;
+    text-align: center;
+}

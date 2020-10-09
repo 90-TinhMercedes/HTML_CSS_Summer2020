@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+.main_menu {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: sticky;
+    box-shadow: 0 0 8px black;
+    padding: 15px;
+    top: 0;
+    z-index: 1;
+}
+
+.menu_element {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.menu_element:hover {
+    background-color: #00FFFF;
+    cursor: pointer;
+}
+
+.background {
+    background-image: url("https://coverfiles.alphacoders.com/502/50287.jpg?fbclid=IwAR07MvE719aX4Z5moMMswL0er3cBx2nlC3KnTqHT2pYDelJ9Lftt5TL4tuk");
+    background-attachment: fixed;
+    width: 100%;
+    height: 480px;
+    background-position: center;
+}
+
+.main_body {
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+    left: calc(50%);
+    transform: translate(-50%, -50%);
+    background-image: url('https://img.thuthuatphanmem.vn/uploads/2018/10/06/anh-dep-ve-anime-girl-ca-tinh_033449959.jpg?fbclid=IwAR31ceyKh5mR-4u60AqfE5NSaiotDqCGFwZHjQHPoAQVucGMMOkdUXJQvo8');
+    background-position: center;
+    background-size: cover;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.body_infor {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body_Levi_img {
+    width: 45%;
+    height: 600px;
+    background-image: url('https://static.zerochan.net/Levi.Ackerman.full.2608610.jpg?fbclid=IwAR26tDPqEuunrIcdFAjpQpJexy728f5b6XYRA9M646jUVuv9aklvFAhvW3g');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.body_Levi_infor {
+    width: 45%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.body_Levi_img_Ver2 {
+    width: 45%;
+    height: 600px;
+    background-image: url('https://image.winudf.com/v2/image/Y29tLmZ1bGxlaGRmb3JrYWFuaW1lLmFuaW1lY2hpbmVjYXRfc2NyZWVuXzBfMTUzMTI2NTAyNF8wOTk/screen-0.jpg?fakeurl=1&type=.jpg&fbclid=IwAR0yPxtGf5H_VrQGOJRxv49GHbPMDZdTTOrp-QT1aUQZ2fOwH302EAcrTlU');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    margin-top: 70px;
+}
+
+span {
+    color: yellow;
+}

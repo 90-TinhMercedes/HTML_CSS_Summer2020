@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* @import url('http://fonts.googleapis.com/css?family=Lobster'); */
+/* @import url('http://fonts.googleapis.com/css?family=Rowdies'); */
+.menu {
+    background-color: #5995db;
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.menu_01 {
+    text-align: center;
+    width: 40%;
+    line-height: 70px;
+}
+
+.menu_02 {
+    text-align: right;
+    width: 40%;
+    line-height: 70px;
+    padding-right: 20px;
+}
+
+.menu_03 {
+    text-align: left;
+    width: 20%;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+.cover {
+    background-color: #d7e9ff;
+    width: 100%;
+    height: 270PX;
+    text-align: center;
+    line-height: 270PX;
+    font-size: 40px;
+    /* font-family: 'Rowdies'; */
+    font-family: cursive;
+    color: #798287;
+    text-shadow: -1px -1px 1px black;
+}
+
+.father_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: cursive;
+    text-shadow: -1px -1px 1px black;
+}
+
+.body_01 {
+    background-color: #c9c6fb;
+    width: 25%;
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    color: #798287;
+    font-size: 40px;
+}
+
+.body_02 {
+    background-color: #f0999f;
+    width: 25%;
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    color: #798287;
+    font-size: 40px;
+}
+
+.body_03 {
+    background-color: #b4d5ff;
+    width: 25%;
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    color: #798287;
+    font-size: 40px;
+}
+
+.body_04 {
+    background-color: #c3edfb;
+    width: 25%;
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    color: #798287;
+    font-size: 40px;
+}
+
+.body_05 {
+    background-color: #f5cf8e;
+    width: 25%;
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    color: #798287;
+    font-size: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer_01 {
+    background-color: #5995db;
+    width: 20%;
+    height: 150px;
+}
+
+.footer_02 {
+    background-color: #d7e9ff;
+    width: 60%;
+    height: 150px;
+}
+
+.footer_03 {
+    background-color: #5995db;
+    width: 20%;
+    height: 150px;
+}
